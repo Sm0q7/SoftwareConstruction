@@ -21,7 +21,7 @@ public class SensorDataProcessor {
 
     // calculate data
     public void calculate(double d) {
-        int i, j, k = 0;
+        int i , j;
         double[][][] data2 = new
                 double[data.length][data[0].length][data[0][0].length];
         BufferedWriter out;
