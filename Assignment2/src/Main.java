@@ -44,7 +44,8 @@ public class SensorDataProcessor {
                                 && average(data[i][j]) < data2[i][j][k] && (i + 1)
                                 * (j + 1) > 0)
                             data2[i][j][k] *= 2;
-                        else
+                        break;// adding break || and deleting "else" Saud
+
                             continue;
                     }
                 }
