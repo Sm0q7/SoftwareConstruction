@@ -16,6 +16,7 @@ public class SensorDataProcessor {
         }
         return val / array.length;
     }
+    // mmmmmmdijsioa
     // calculate data
     public void calculate(double d) {
         int i, j, k = 0;
