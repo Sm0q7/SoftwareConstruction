@@ -3,6 +3,8 @@ public class SensorDataProcessor {
     public double[][][] data;
     public double[][] limit;
     // constructor
+
+    // i change the constructor
     public SensorDataProcessor(double[][][] data, double[][] limit) {
         this.data = data;
         this.limit = limit;
@@ -16,7 +18,7 @@ public class SensorDataProcessor {
         }
         return val / array.length;
     }
-    // mmmmmmdijsioa
+
     // calculate data
     public void calculate(double d) {
         int i, j, k = 0;
